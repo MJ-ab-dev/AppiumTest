@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-21T14:21:56Z" name="Default suite" finished-at="2023-05-21T14:24:09Z" duration-ms="132939">
+    <groups>
+    </groups>
+    <test started-at="2023-05-21T14:21:56Z" name="Default test" finished-at="2023-05-21T14:24:09Z" duration-ms="132939">
+      <class name="tests.MovieAppTests">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:tests.MovieAppTests@5be46f9d]" started-at="2023-05-21T14:21:56Z" name="Setup" finished-at="2023-05-21T14:22:06Z" duration-ms="9500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="CheckPageTitle()[pri:1, instance:tests.MovieAppTests@5be46f9d]" started-at="2023-05-21T14:22:06Z" name="CheckPageTitle" description="Match the page title of the application" finished-at="2023-05-21T14:22:06Z" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckPageTitle -->
+        <test-method signature="ClickonMovieTitle()[pri:2, instance:tests.MovieAppTests@5be46f9d]" started-at="2023-05-21T14:22:06Z" name="ClickonMovieTitle" description="Click on movie title" finished-at="2023-05-21T14:22:18Z" depends-on-methods="tests.MovieAppTests.CheckPageTitle" duration-ms="12154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickonMovieTitle -->
+        <test-method signature="ClickOnMovies()[pri:3, instance:tests.MovieAppTests@5be46f9d]" started-at="2023-05-21T14:22:18Z" name="ClickOnMovies" description="Click on Multiple Movies" finished-at="2023-05-21T14:23:08Z" depends-on-methods="tests.MovieAppTests.ClickonMovieTitle" duration-ms="49956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnMovies -->
+        <test-method signature="CheckMovieDetails()[pri:4, instance:tests.MovieAppTests@5be46f9d]" started-at="2023-05-21T14:23:08Z" name="CheckMovieDetails" description="Compare Movie Details" finished-at="2023-05-21T14:24:00Z" depends-on-methods="tests.MovieAppTests.ClickOnMovies" duration-ms="51331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckMovieDetails -->
+        <test-method signature="SortOnRating()[pri:6, instance:tests.MovieAppTests@5be46f9d]" started-at="2023-05-21T14:24:00Z" name="SortOnRating" description="Filter Movies on the basis of Rating" finished-at="2023-05-21T14:24:00Z" depends-on-methods="tests.MovieAppTests.CheckMovieDetails" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SortOnRating -->
+        <test-method signature="ScrollToAMovie()[pri:7, instance:tests.MovieAppTests@5be46f9d]" started-at="2023-05-21T14:24:00Z" name="ScrollToAMovie" description="Scroll to a Specific Movie" finished-at="2023-05-21T14:24:09Z" depends-on-methods="tests.MovieAppTests.SortOnRating" duration-ms="9745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScrollToAMovie -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:tests.MovieAppTests@5be46f9d]" started-at="2023-05-21T14:24:09Z" name="TearDown" finished-at="2023-05-21T14:24:09Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- tests.MovieAppTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

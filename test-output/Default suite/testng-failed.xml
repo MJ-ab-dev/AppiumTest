@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="tests.MovieAppTests">
+        <methods>
+          <include name="CheckPageTitle"/>
+          <include name="ScrollToAMovie"/>
+          <include name="ClickOnMovies"/>
+          <include name="CheckMovieDetails"/>
+          <include name="SortOnRating"/>
+          <include name="ClickonMovieTitle"/>
+          <include name="Setup"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- tests.MovieAppTests -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
